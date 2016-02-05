@@ -1,0 +1,5 @@
+tile.hexifunctionaldecoration.controlPanel.name=Control Panel
+tile.hexifunctionaldecoration.keypad.name=Keypad
+
+item.hexifunctionaldecoration.button.basic2x2.name=Basic Button (2x2)
+item.hexifunctionaldecoration.button.knob2x2.name=Knob (2x2)

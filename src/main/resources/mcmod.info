@@ -1,0 +1,9 @@
+[
+	{
+	  "modid": "hexiFunctionalDecoration",
+	  "name": "Hexi's Functional Decoration",
+	  "description": "A collection of control panels and displays for controlling dense redstone systems.",
+	  "version": "0.2",
+	  "authorList": ["Hexicube"]
+	}
+]
