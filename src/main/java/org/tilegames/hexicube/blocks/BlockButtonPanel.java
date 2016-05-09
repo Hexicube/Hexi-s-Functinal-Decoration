@@ -38,7 +38,7 @@ public abstract class BlockButtonPanel extends BlockContainer implements IRedNet
 		AxisAlignedBB[] wireparts = panel.getParts();
 		
 		Vec3 playerPosition = Vec3.createVectorHelper(player.posX - panel.xCoord, player.posY - panel.yCoord, player.posZ - panel.zCoord);
-		if(!remote) playerPosition.yCoord += player.getEyeHeight();
+		if(!remote) playerPosition.yCoord += player.getEyeHeight(); //TODO: Fix this, it's very slightly too high.
 		Vec3 playerLook = player.getLookVec();
 		
 		Vec3 playerViewOffset = Vec3.createVectorHelper(playerPosition.xCoord + playerLook.xCoord * reachDistance, playerPosition.yCoord + playerLook.yCoord * reachDistance, playerPosition.zCoord + playerLook.zCoord * reachDistance);
@@ -184,7 +184,7 @@ public abstract class BlockButtonPanel extends BlockContainer implements IRedNet
 		if(te instanceof TEButtonPanel) ((TEButtonPanel)te).redNetInputs[side.ordinal()] = values;
 	}
 	
-	@Optional.Method(modid="ProjRed|Core")
+	@Optional.Method(modid="MineFactoryReloaded")
 	@Override
 	public void onNeighborBlockChange(World world, int x, int y, int z, Block block)
 	{

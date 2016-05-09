@@ -1,46 +1,47 @@
 /* Operation embedded to-do list is a go!
  * 
- * GENERAL WORK
- * TODO: Let blocks define label areas that accept name-tags.
- * TODO: Add recipes.
- * TODO: Add reverse recipes for buttons to obtain the frame and button parts.
+ * TODO: GENERAL WORK
+ * Let blocks define label areas that accept name-tags.
+ * Add recipes.
+ * Add reverse recipes for buttons to obtain the frame and button parts.
+ * Allow buttons to accept labels depending on their size (2x2 accepts 1 character, 2x4 accepts 2, etc.)
  * 
- * SPECIFIC BLOCKS
- * TODO: Primitive Biometric Scanner; emits a 4-bit hash of the player UUID when stood on.
- * TODO: Primitive Fingerprint Scanner; emits a 4-bit hash of the player UUID when stood on.
- * TODO: Biometric Scanner; emits an 8-bit hash of the player UUID when stood on.
- * TODO: Fingerprint Scanner; emits an 8-bit hash of the player UUID when activated.
- * TODO: Advanced Biometric Scanner; emits the lower half of the player UUID when stood on.
- * TODO: Advanced Fingerprint Scanner; emits the upper half of the player UUID when activated.
- * TODO: Ultimate Biometric Scanner; emits a specific 8-bit signal for each player as configured.
- * TODO: Ultimate Fingerprint Scanner; emits a specific 8-bit signal for each player as configured.
- * TODO: Player Analyst; used with ultimate scanners, handles the configurations.
- * TODO: Bar-chart; shows recent activity of all channels.
- * TODO: Variable light block; colour assigned via one channel for each wool colour (black interpreted as white, white interpreted as off).
- * TODO: Advanced variable light block; colour assigned via 3 channels for RGB data (brightness determined by highest level).
+ * TODO: SPECIFIC BLOCKS
+ * Primitive Biometric Scanner; emits a 4-bit hash of the player UUID when stood on.
+ * Primitive Fingerprint Scanner; emits a 4-bit hash of the player UUID when stood on.
+ * Biometric Scanner; emits an 8-bit hash of the player UUID when stood on.
+ * Fingerprint Scanner; emits an 8-bit hash of the player UUID when activated.
+ * Advanced Biometric Scanner; emits the lower half of the player UUID when stood on.
+ * Advanced Fingerprint Scanner; emits the upper half of the player UUID when activated.
+ * Ultimate Biometric Scanner; emits a specific 8-bit signal for each player as configured.
+ * Ultimate Fingerprint Scanner; emits a specific 8-bit signal for each player as configured.
+ * Player Analyst; used with ultimate scanners, handles the configurations.
+ * Bar-chart; shows recent activity of all channels.
+ * Variable light block; colour assigned via one channel for each wool colour (black interpreted as white, white interpreted as off).
+ * Advanced variable light block; colour assigned via 3 channels for RGB data (brightness determined by highest level).
  * 
- * SPECIFIC PANELS
- * TODO: Version of control panel with 2 4x4 button slots.
- * TODO: Mostly flat block with 14x14 button slot.
- * TODO: Version of keypad with 8 2x4 button slots.
+ * TODO: SPECIFIC PANELS
+ * Version of control panel with 2 4x4 button slots.
+ * Mostly flat block with 14x14 button slot.
+ * Version of keypad with 8 2x4 button slots.
  * 
- * SPECIFIC BUTTONS
- * TODO: 2x2 Light.
- * TODO: 2x4 Lever.
- * TODO: 4x4 Knob; left click reduces by one and right click increases by one. Crouching changes increments to 4.
- * TODO: 2x4 Sliding Lever; functions similarly to knobs.
- * TODO: Light-up buttons; lit while depressed.
- * TODO: Light-up channel buttons; lights channel colour when channel has a signal.
- * TODO: 2x2 Dip-switch variants for lever.
- * TODO: Large red mushroom button (4x4/12x12).
- * TODO: Mollyguard button (crouch to toggle guard, can only use when guard is open).
- * TODO: Toggle button.
+ * TODO: SPECIFIC BUTTONS
+ * 2x2 Light.
+ * 2x2 Dip-switch variants for lever.
+ * 2x4 Lever.
+ * 2x4 Sliding Lever; functions similarly to knobs.
+ * 4x4 Knob; left click reduces by one and right click increases by one. Crouching changes increments to 4.
+ * Light-up buttons; lit while depressed.
+ * Light-up channel buttons; lights channel colour when channel has a signal.
+ * Large red mushroom button (4x4/12x12).
+ * Mollyguard button (crouch to toggle guard, can only use when guard is open).
+ * Toggle button.
  * 
- * CRAFTING COMPONENTS
- * TODO: Button frame (2x2/2x4/4x4/12x12); used to create buttons of specific sizes, made from sticks.
- * TODO: Button acceptor (2x2/2x4/4x4/12x12); used to create panels that accept specific sizes, made from sticks.
- * TODO: Plastic; used for lights and clear surfaces, oredicted.
- * TODO: LED; used for lights, possibly oredicted.
+ * TODO: CRAFTING COMPONENTS
+ * Button frame (2x2/2x4/4x4/12x12); used to create buttons of specific sizes, made from sticks.
+ * Button acceptor (2x2/2x4/4x4/12x12); used to create panels that accept specific sizes, made from sticks.
+ * Plastic; used for lights and clear surfaces, oredicted.
+ * LED; used for lights, possibly oredicted.
  */
 
 package org.tilegames.hexicube;
